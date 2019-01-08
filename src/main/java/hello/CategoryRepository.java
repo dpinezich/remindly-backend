@@ -9,6 +9,6 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 @RepositoryRestResource(collectionResourceRel = "category", path = "category")
 public interface CategoryRepository extends PagingAndSortingRepository<Category, Long> {
 
-    List<Person> findByType(@Param("type") String type);
+    List<Category> findByName(@Param("name") String name);
 
 }
