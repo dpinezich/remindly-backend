@@ -12,14 +12,14 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    private String type;
+    private String name;
 
     public String getType() {
-        return type;
+        return name;
     }
 
     public void setType(String type) {
-        this.type = type;
+        this.name = name;
     }
 
 }

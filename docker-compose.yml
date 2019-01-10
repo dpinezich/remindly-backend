@@ -1,0 +1,3 @@
+services:
+  remindly:
+    build: https://github.com/dpinezich/remindly-backend.git
