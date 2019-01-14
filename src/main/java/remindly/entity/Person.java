@@ -1,4 +1,4 @@
-package hello;
+package remindly.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
